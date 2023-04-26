@@ -9,7 +9,7 @@
 
       <el-form-item label="密码">
         <el-col :span="20">
-          <el-input placeholder="请输入密码" v-model="password"/>
+          <el-input show-password placeholder="请输入密码" v-model="password"/>
         </el-col>
       </el-form-item>
 
